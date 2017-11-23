@@ -10,7 +10,14 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
+  def genre=(genre)
+    @genre = genre
+  end
+  def genre
+    @genre
+  end
+
   GENRES = []
-  
+
 
 end
